@@ -1,5 +1,5 @@
 {
-  "name": "vault",
+  "name": "notes",
   "version": "1.0.0",
   "description": "A simple password manager app.",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/MithunKarthick/Vault.git"
   },
   "keywords": [
-    "Vault"
+    "Notes", "Sticky Notes"
   ],
   "author": "Mithun",
   "license": "ISC",
@@ -24,7 +24,9 @@
   "dependencies": {
     "mongoose": "^5.9.7",
     "next": "^9.3.4",
+    "node-fetch": "^2.6.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "swr": "^0.2.0"
   }
 }
