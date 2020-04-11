@@ -10,8 +10,10 @@ export default function Index(props) {
 };
 
 //calls get-db API to load data in db before rendering
-export async function getServerSideProps(){  
-    var raw =  await fetch("http://localhost:3000/api/db-get");
+export async function getServerSideProps(ctx){ 
+     
+    const url = "http://" + ctx.req.headers.host + "/api/db-get"
+    var raw =  await fetch(url);
     if(raw !== undefined){
     const data = await raw.json();
     return { props : { notes: data } };

@@ -1,7 +1,7 @@
 {
   "name": "notes",
   "version": "1.0.0",
-  "description": "A simple password manager app.",
+  "description": "A simple notes app.",
   "main": "index.js",
   "scripts": {
     "dev": "next",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MithunKarthick/Vault.git"
+    "url": "git+https://github.com/MithunKarthick/Notes.git"
   },
   "keywords": [
     "Notes", "Sticky Notes"
@@ -18,9 +18,9 @@
   "author": "Mithun",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MithunKarthick/Vault/issues"
+    "url": "https://github.com/MithunKarthick/Notes/issues"
   },
-  "homepage": "https://github.com/MithunKarthick/Vault#readme",
+  "homepage": "https://github.com/MithunKarthick/Notes#readme",
   "dependencies": {
     "mongoose": "^5.9.7",
     "next": "^9.3.4",
