@@ -1,0 +1,7 @@
+1. config has only mongoose path and collection name
+2. below is the schema
+    _id : Number,
+    user_id: Number,
+    note_title: { type: String, maxlength: 30},
+    note_content: { type: String, maxlength: 300}
+3. default user id is 55489
