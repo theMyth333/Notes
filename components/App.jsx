@@ -15,7 +15,7 @@ function App(props) {
   function addNote(evt) {
     let newNote = {};
     newNote._id = Math.floor(Math.random() * (10 ** 10)); //key field used to delete and insert record in DB
-    newNote.user_id = 55489;
+    newNote.user_id = props.email;
     newNote.note_title = noteContent.title;
     newNote.note_content = noteContent.note;
     updatDB("I", newNote);  //call db-update API
@@ -44,7 +44,7 @@ function App(props) {
 
   return (
     <div>
-      <Header />
+      <Header name={props.name}/>
       <InputArea onAdd={addNote} noteContent={noteContent} onChange={onChange} />
       {noteItems.map(note => <Note id={note._id}
         title={note.note_title}

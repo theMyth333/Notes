@@ -18,6 +18,19 @@ body{
   color: #fff;
   font-family: "McLaren", cursive;
   font-weight: 200;
+  width: 200px;
+  display: inline-block;
+}
+
+.head-name{
+  position: absolute;
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+  margin-left: 10px;
+  display: inline-block;
+  width: 70%;
+  text-align: right;
 }
 
 .head-bar{
@@ -40,7 +53,7 @@ body{
   float: left;
 }
 
-.i1 {
+.input-area .i1 {
   font-size: 1.8em;
   /* margin-top: 6px; */
   width: 100%;
@@ -49,7 +62,7 @@ body{
   outline: none;
 }
 
-.i2 {
+.input-area .i2 {
   font-size: 1.1em;
   padding: 2px 4px;
   /* margin-bottom: 10px; */
@@ -118,3 +131,51 @@ body{
   color: #a3a8a5;
 }
 
+.login {
+  width: 600px;
+  height: 70%;;
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  margin: 8% 25%;
+  float: left;
+}
+
+.login button{
+  font-family: "McLaren", cursive;
+  color: white;
+  font-size: 2em;
+  width: 40%;
+  height: 50px;
+  border-radius: 7px;
+  margin: 10px;
+  background-color: #f5ba13;
+  outline: none;
+  border: none;
+}
+
+.login input{
+  font-size: 1.1em;
+  width: 95%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border-style: groove;
+  outline: none;
+}
+
+.login .log-btn{
+  margin-left: 40px;
+}
+
+.login .submit-btn{
+  background-color: #a3a8a5;
+  margin-left: 25%;
+}
+
+.login p {
+  color: red;
+  padding: 2px;
+  margin-left: 10px;
+}
